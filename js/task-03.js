@@ -18,7 +18,7 @@ galleryRef.style.display = 'flex';
 galleryRef.style.alignItems = 'center';
 
 const createGalleryItem = ({ url, alt }) => {
-  return `<li class="gallery-list-item" style="List-style-type: none; margin: 10px;"><img class="gallery-list-img" src="${url}" alt="{alt}" width="500px"></li>`;
+  return `<li class="gallery-list-item" style="List-style-type: none; margin: 10px;"><img class="gallery-list-img" src="${url}" alt="${alt}" height="250px"></li>`;
 };
 
 galleryRef.insertAdjacentHTML(
